@@ -15,7 +15,7 @@ This exercise designed to help you become familiar with the steps you'll need to
 3. **Create a branch**
 
     While you can work directly on the `master` branch, it's best practice to do your work on a separate branch. This is often called a *feature* branch. You can create and switch to a branch by running:
-    
+		
         git checkout -b feature-branch-name
 
 4. **Commit your work**
@@ -50,3 +50,5 @@ To create this upstream remote you can run:
 After doing so you can reference the parent repository as `upstream`. For example, to pull the recent changes from the `master` branch of the parent repository to your local copy, you can run:
 
     git pull upstream master
+	
+
